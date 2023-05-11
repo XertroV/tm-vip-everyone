@@ -8,6 +8,6 @@ Authors: XertroV
 
 Suggestions/feedback: @XertroV on Openplanet discord
 
-Code/issues: [https://github.com/XertroV/tm-better-room-manager](https://github.com/XertroV/tm-better-room-manager)
+Code/issues: [https://github.com/XertroV/tm-vip-everyone](https://github.com/XertroV/tm-vip-everyone)
 
 GL HF

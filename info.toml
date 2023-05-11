@@ -3,7 +3,7 @@ name     = "VIP Everyone"
 author   = "XertroV"
 category = "Club"
 version  = "0.2.0"
-# siteid   = 312
+siteid   = 385
 
 [script]
 #__DEFINES__
