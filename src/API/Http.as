@@ -31,12 +31,12 @@ Json::Value@ FetchClubEndpoint(const string &in route) {
 
 Json::Value@ CallLiveApiPath(const string &in path) {
     AssertGoodPath(path);
-    return FetchLiveEndpoint(NadeoServices::BaseURLCore() + path);
+    return FetchLiveEndpoint(NadeoServices::BaseURLLive() + path);
 }
 
 Json::Value@ PostLiveApiPath(const string &in path, Json::Value@ data) {
     AssertGoodPath(path);
-    return PostLiveEndpoint(NadeoServices::BaseURLCore() + path, data);
+    return PostLiveEndpoint(NadeoServices::BaseURLLive() + path, data);
 }
 
 Json::Value@ CallCompApiPath(const string &in path) {
