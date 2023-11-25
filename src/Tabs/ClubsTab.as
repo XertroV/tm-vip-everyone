@@ -17,6 +17,7 @@ class ClubsTab : Tab {
         loading = true;
         try {
             auto resp = GetMyClubs();
+            trace('response: ' + Json::Write(resp));
             @myClubs = resp['clubList'];
             FixClubNamesTags();
             maxPage = resp['maxPage'];
